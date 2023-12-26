@@ -5,10 +5,11 @@ const connection = require("./database/database");
 
 const categoriesController = require("./categories/CategoriesController");
 const articlesController = require('./articles/ArticlesController');
-const usersController = require('./user/UsersController');
+const usersController = require('./users/UsersController');
 
 const Article = require("./articles/Article");
 const Category = require("./categories/Category");
+const User = require("./users/User")
 
 
 //view engine
